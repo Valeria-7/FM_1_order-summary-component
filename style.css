@@ -1,0 +1,96 @@
+/*<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  margin: 70px auto;
+  background-color: #fff;
+  max-width: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 50px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.card-description {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.card-plan {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.plan-icon {
+  margin-right: 15px;
+}
+
+.plan-title {
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan-price {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-change-button {
+  margin-left: auto;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.card-blu-button {
+  margin-top: 30px;
+  padding: 15px 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  border: none;
+}
+
+.card-button {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  background-color: transparent;
+}
