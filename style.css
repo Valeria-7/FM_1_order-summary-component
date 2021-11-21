@@ -71,6 +71,12 @@ body {
   margin-left: auto;
   color: hsl(245, 75%, 52%);
   font-weight: 700;
+  transition: 0.3s;
+}
+
+.plan-change-button:hover {
+  color: hsl(245, 75%, 52%, 80%);
+  text-decoration: none;
 }
 
 .card-blu-button {
@@ -83,6 +89,11 @@ body {
   background-color: hsl(245, 75%, 52%);
   border-radius: 10px;
   border: none;
+  transition: 0.3s;
+}
+
+.card-blu-button:hover {
+  background-color: hsl(245, 75%, 52%, 80%);
 }
 
 .card-button {
@@ -93,4 +104,9 @@ body {
   color: hsl(224, 23%, 55%);
   border: none;
   background-color: transparent;
+  transition: 0.3s;
+}
+
+.card-button:hover {
+  color: hsl(223, 47%, 23%);
 }
